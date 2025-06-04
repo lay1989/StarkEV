@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Zap, Shield, Cpu, Battery, Globe, Lock } from 'lucide-react';
 import HolographicPanel from '../ui/HolographicPanel';
+import ARVIS from '../static/AR Visualization.jpeg';
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -159,7 +160,8 @@ const FeaturesSection: React.FC = () => {
                     <div className="relative aspect-square max-w-sm mx-auto">
                       <div className="absolute inset-0 rounded-full bg-electric-blue/10 filter blur-md"></div>
                       <img 
-                        src="StarkEV/src/components/static/AR Visualization.jpeg" 
+                        src= { ARVIS }
+                        loading="lazy"
                         alt="AR Visualization" 
                         className="w-full h-full object-cover rounded-lg holographic shadow-lg"
                       />

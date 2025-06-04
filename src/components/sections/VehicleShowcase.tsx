@@ -3,12 +3,16 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ChevronLeft, ChevronRight, Info, Zap, Shield, Gauge } from 'lucide-react';
 import HolographicPanel from '../ui/HolographicPanel';
+import MARK_I from '../static/Mark I.jpeg';
+import MARK_VII from '../static/Mark VII.jpg';
+import HULK_BUSTER from '../static/Hulk Buster.jpg';
+
 
 const vehicles = [
   {
     id: 1,
     name: 'MARK I',
-    image: 'StarkEV/src/components/static/Mark I.jpeg',
+    image: MARK_I,
     specs: {
       range: '450 miles',
       acceleration: '0-60 mph in 2.4s',
@@ -25,7 +29,7 @@ const vehicles = [
   {
     id: 2,
     name: 'MARK VII',
-    image: 'StarkEV/src/components/static/Mark VII.jpg',
+    image: MARK_VII,
     specs: {
       range: '380 miles',
       acceleration: '0-60 mph in 2.8s',
@@ -42,7 +46,7 @@ const vehicles = [
   {
     id: 3,
     name: 'HULK BUSTER',
-    image: 'StarkEV/src/components/static/Hulk Buster.jpg',
+    image: HULK_BUSTER,
     specs: {
       range: '620 miles',
       acceleration: '0-60 mph in 1.9s',

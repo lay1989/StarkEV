@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { ChevronDown, Zap, Shield } from 'lucide-react';
 import HolographicPanel from '../ui/HolographicPanel';
 import { useInView } from 'react-intersection-observer';
+import NEW from '../static/new.jpg';
+
 
 const HeroSection: React.FC = () => {
   const [typedText, setTypedText] = useState('');
@@ -105,7 +107,8 @@ const HeroSection: React.FC = () => {
               {/* Placeholder for 3D Model - in real implementation, this would be a Three.js component */}
               <div className="absolute inset-0 rounded bg-electric-blue/10 animate-pulse-glow"></div>
               <motion.img 
-                src="StarkEV/src/components/static/new.jpg" 
+                src= { NEW } 
+                loading="lazy"
                 alt="Electric Vehicle" 
                 className="rounded-xl object-cover w-full h-full"
                 initial={{ opacity: 0, rotateY: -20 }}
