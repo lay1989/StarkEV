@@ -159,7 +159,7 @@ const FeaturesSection: React.FC = () => {
                     <div className="relative aspect-square max-w-sm mx-auto">
                       <div className="absolute inset-0 rounded-full bg-electric-blue/10 filter blur-md"></div>
                       <img 
-                        src="./src/components/static/AR Visualization.jpeg" 
+                        src="StarkEV/src/components/static/AR Visualization.jpeg" 
                         alt="AR Visualization" 
                         className="w-full h-full object-cover rounded-lg holographic shadow-lg"
                       />

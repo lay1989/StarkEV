@@ -8,7 +8,7 @@ const vehicles = [
   {
     id: 1,
     name: 'MARK I',
-    image: './src/components/static/Mark I.jpeg',
+    image: 'StarkEV/src/components/static/Mark I.jpeg',
     specs: {
       range: '450 miles',
       acceleration: '0-60 mph in 2.4s',
@@ -25,7 +25,7 @@ const vehicles = [
   {
     id: 2,
     name: 'MARK VII',
-    image: './src/components/static/Mark VII.jpg',
+    image: 'StarkEV/src/components/static/Mark VII.jpg',
     specs: {
       range: '380 miles',
       acceleration: '0-60 mph in 2.8s',
@@ -42,7 +42,7 @@ const vehicles = [
   {
     id: 3,
     name: 'HULK BUSTER',
-    image: './src/components/static/Hulk Buster.jpg',
+    image: 'StarkEV/src/components/static/Hulk Buster.jpg',
     specs: {
       range: '620 miles',
       acceleration: '0-60 mph in 1.9s',

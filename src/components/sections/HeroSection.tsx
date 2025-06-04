@@ -105,7 +105,7 @@ const HeroSection: React.FC = () => {
               {/* Placeholder for 3D Model - in real implementation, this would be a Three.js component */}
               <div className="absolute inset-0 rounded bg-electric-blue/10 animate-pulse-glow"></div>
               <motion.img 
-                src="./src/components/static/new.jpg" 
+                src="StarkEV/src/components/static/new.jpg" 
                 alt="Electric Vehicle" 
                 className="rounded-xl object-cover w-full h-full"
                 initial={{ opacity: 0, rotateY: -20 }}
